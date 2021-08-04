@@ -30,6 +30,7 @@ const handleInput = e => {
   const handleBtn =(e) =>{
     setUser(input);
     loadData();
+    setInput('');
   }
 
     

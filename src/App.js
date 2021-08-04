@@ -1,12 +1,15 @@
 import './App.css';
+import Footer from './Components/Footer';
+import Header from './Components/Header';
 // import Test from './Components/Test';
 import UseEffectAPI from './Components/UseEffectAPI';
 
 function App() {
   return (
     <div>
-      {/* <Test /> */}
+      <Header />
       <UseEffectAPI />
+      <Footer />
     </div>
   );
 }
